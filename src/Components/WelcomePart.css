@@ -1,0 +1,41 @@
+.page1 {
+    width: 100%;
+    height: 100vh;
+}
+
+
+.page1-chef-sector {
+    background-image: url('https://s3-alpha-sig.figma.com/img/16b7/64de/8fefb65833b008164ebb4cf2ff06ad13?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pnGIvugjC7q-CETMfWpdR5~-RlrdjPCpEo0AN4j95mvTAOi12KWgTURfuMGcFjxHsOV64FltNbwQ1X44xxv7O6R9-QJy1ZORbh11fmbFxrPh9vCUPEPtexr2Hp30ZYit92E-0dCrIXw1E3ziSajscXd6NaTFTBFVS9GFfNgelVtJFFtfBrulleUR7O~8mB0kqfnvguf7LyiA3GEvwymnUISXXddcGr2W~pT6SWeimiXo2rsoCcr6i0d7agtFxZY-68XJBibRmn78yUbQ3gRkkHGlGvU58DI6aM4lywuuKJvahtwyNjloGcRXDqVI3e0IFQ7X5FH542LYVlSI4vigFQ__');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+  }
+
+.page1-sector2 {
+    width: 1138px;
+    height: 328px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 693px;
+    left: 151px;
+}
+ 
+.page2 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.magic-atmosphere {
+    width: 376px;
+    height: 85px;
+    text-align: center;
+}
+
+
+
+
+
+

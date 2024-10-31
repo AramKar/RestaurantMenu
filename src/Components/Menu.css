@@ -1,0 +1,155 @@
+
+
+.logo-square {
+    width: 48.06px;
+    height: 48.06px;
+    top: 83.98px;
+    left: 165px;
+    gap: 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    border: 3px solid #FF7400;
+    transform: rotate(45deg);
+    
+}
+
+.page-logo {
+    width: 100px;
+    height: 67.96px;
+    gap: 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    position: absolute;  
+    left: 165px;
+    top:50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-square2 {
+    width: 48.06px;
+    height: 48.06px;
+    gap: 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    border: 3px solid #FF7400;
+    transform: rotate(45deg);
+  
+
+}
+
+.page-menu {
+    min-width: 742px;
+    height: 64px;
+    position: absolute;
+    top: 55px;
+    left: 533px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu-spans {
+    display: flex;
+    gap: 25px;
+}
+
+.shopping-cart {
+    width: 50px;
+    height: 50px;
+    margin-left:36px;
+}
+
+.straight-border {
+    border: 1px solid #FFFFFF;
+    width: 51px;
+    height: 0px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    transform: rotate(90deg);
+    margin-left: 30px;
+}
+
+.contact {
+    height: 64px;
+    /* align-items: center; */
+    display:flex;
+    flex-direction:column;
+    margin-left: 30px;
+}
+
+.contact-call {
+    width: 23px;
+    height: 23px;
+    gap: 0px;
+    opacity: 0px;
+    top: 0px;
+    left: 0px;
+}
+
+
+.contact-number {
+   align-items: center;
+   display: flex;
+}
+
+.number {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.call-order-text {
+    width: 154px;
+    height: 38px;
+    top: 81px;
+    left: 914px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+   
+}
+
+.order-button {
+    width: 157px;
+    height: 47px;
+    top: 59px;
+    left: 1118px;
+    gap: 0px;
+    opacity: 0px;    
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.07px;
+    text-align: center;
+    color: white;  
+    background: #FF7400;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+.our-chefs-and-img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+
+.OurChefsPage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.last-img-cont {
+    width: 100%;
+    height: 732px;
+}
+
+.last-img {
+    width: 100%;
+    height: 732px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

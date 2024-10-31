@@ -1,0 +1,52 @@
+.our-dishes {
+    display:flex;
+    flex-direction: column;
+    gap: 139px;
+}
+
+.pizza-img {
+    width: 445px;
+    height: 478px;
+    transform: rotate(180deg);
+}
+
+.burger-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.burger-menu-cont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.our-dishes-title-cont {
+    width: 294px;
+    height: 62px;
+    font-family: Tinos;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62.09px;
+    text-align: center;
+    margin-left: 588px;
+}
+
+.our-dishes-title {
+    width: 294px;
+    height: 62px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

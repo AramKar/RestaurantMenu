@@ -1,0 +1,56 @@
+.food-type1  {
+    width: 349px;
+    height: 328px;
+    background: white;
+    position:relative;
+    text-align: center;
+}
+
+.kettle {
+    width: 87px;
+    height: 87px;
+    position: absolute;
+    top: 48px;
+    left: 114px;
+
+}
+
+.magical-atmosphere {
+    width: 263px;
+    height: 30px;
+    position: absolute;
+    top: 139px;
+    left: 43px;
+    font-size: 26px;
+    font-family: Tinos;
+    font-weight: 400;
+    line-height: 29.9px;
+}
+
+.magical-atmosphere::after {
+    color: #BC9060; 
+}
+
+.magical-atmosphere-text {
+    position: absolute;
+    top: 189px;
+    left: 34px;
+    color: #656363;
+    font-family: Tinos;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 29.9px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+

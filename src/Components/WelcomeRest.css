@@ -1,0 +1,94 @@
+.welcome-texts {
+    width: 556px;
+    height: 179px;
+    position: absolute;
+    top: 322px;
+    left: 175px;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome-text1 {
+    width: 430px;
+    height: 57px;
+    color: #D67E35;
+    font-family: Tinos;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 57.5px;
+    text-align: left;
+    
+}
+
+.welcome-text2 {
+    width: 556px;
+    height: 85px;
+    font-family: Tinos;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 91.99px;
+    color: #D67E35;
+
+}
+
+.home-food-good {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 125px;
+}
+
+
+.left-line {
+    width: 61px;
+    height: 2px;
+    background: #C4C4C4;
+
+}
+
+
+.home-food-text {
+    width: 169px;
+    height: 25px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    text-align: left;
+    color: white;    
+   
+    
+}
+
+.right-line {
+    width: 61px;
+    height: 2px;
+    background: #C4C4C4;
+
+}
+
+.view-menu {
+    width: 137px;
+    height: 47px;
+    position: absolute;
+    top: 522px;
+    left: 375px;
+    background: #FF7400;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+.chef-sector-advertisement {
+    width: 1440px;
+    height: 357px;
+    position: absolute;
+    top: 520px; 
+    background-image: url("../image/Rectangle38.png");
+}
+
+
+.advertisement-texts {
+    width: 601px;
+    height: 173px;
+    top: 1871px;
+    left: 165px;
+    display: flex;
+    flex-direction: column;
+}
+
+.adv1 {
+    width: 601px;
+    height: 120px;
+    position: absolute;
+    top: 80px;
+    left: 165px;
+    font-family: Tinos;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 59.79px;
+    color: #D67E34;
+
+
+}
+
+.mothly-package {
+    width: 542px;
+    height: 33px;
+    position: absolute;
+    top: 220px;
+    left: 165px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-align: left;
+    
+    
+}
+
+.order-table {
+    width: 157px;
+    height: 47px;
+    position: absolute;
+    top: 155px;
+    left: 1097px;
+    background: #FF7400;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

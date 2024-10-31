@@ -1,0 +1,54 @@
+.images-design {
+    width: 212px;
+    height: 164px;
+    position: absolute;
+    left: 1020px;
+    background: #FFE8D0;
+    z-index: 1;
+
+}
+
+.rest-img1 {
+    width: 233px;
+    height: 300px;
+    position: absolute;
+    left: 735px;
+    z-index: 3;
+}
+
+.rest-img2 {
+    width: 255px;
+    height: 430px;
+    position: absolute;
+    left: 925px; 
+    z-index: 2;
+}
+
+.rest-img3 {
+    width: 254px;
+    height: 300px;
+    position: absolute;
+    left: 1020px; 
+    z-index: 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
