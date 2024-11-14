@@ -4,25 +4,27 @@ import './HamburgersVariety.css';
 
 
 function HamburgersVariety(props){
-     let count = props.count;
+    const [localCounter, setLocalCounter] = useState(0)
+
+    
     let MinusCounter = () => {
-        if(count > 0) {
-            props.SetCount(count - 1)
-        } else if(count <= 0){
-            props.SetCount(0)
+        if(localCounter > 0) {
+            setLocalCounter(localCounter - 1)
+        } else if(localCounter <= 0){
+            setLocalCounter(0)
         }
     };
 
     let  PlusCounter = () => {
-        props.SetCount(count + 1);
+        setLocalCounter(localCounter + 1);
     } 
 
 
     
-    let MyBasket = () => { props.SetCount(count)
+    let MyBasket = () => { props.SetCount((prev) => prev + localCounter)
        
     }
-    console.log(props)
+   
 
     return(
       
@@ -41,7 +43,7 @@ function HamburgersVariety(props){
 
         <div className='burger-quantity'>
             <button onClick = {MinusCounter} className='minus-button'>-</button>
-            <h3>{props.count}</h3>
+            <h3>{localCounter}</h3>
             <button onClick = {PlusCounter} className='plus-button'>+</button>
             <button className='add-basket' onClick={MyBasket}>Add Basket</button>
         </div>

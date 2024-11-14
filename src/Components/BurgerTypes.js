@@ -6,7 +6,7 @@ import './BurgerTypes.css';
 function BurgerTypes(props) {
     return(
         <div style = {{display: "flex", alignItems: "center", gap: "30px"}}>
-            <div><img style = {{width: "210px", height: "140px",}} src = "https://s3-alpha-sig.figma.com/img/58c6/64a5/5490f46f34f5d3a61666f09db0723d92?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GZmH9A7HxA6SzhmO44Krl8VbKi4LMzHA9x0jEAyL1uHdJ6KYJRQb0jofxS4xJ1dLXSPvYHQ2lMzV-m50yN7qhM44DWB-jJPGWfkSycnDQDsWxYbf6twSnLRJhtZJStwfafdB3ke54FJDLUoOwOQO4GJHwoTZnkWGYfImzIk5tkpN4nYEUOGq3yfBlLAEls-HlgQzMPOXg7tVHVf5cTUOkmt6ZJRDB-LK-pZSht8dNOZbRWFCtgBjDF6n1dTO0tf7yS99vmTiSoOzq9rMavuYV6PDCbt1jfw7B9S6bi-fnC1ytLmFRuUE~n3NIuQiaRowKUeeWBPmRPNNyH~FsZt-3w__"></img></div>
+            <div><img style = {{width: "210px", height: "140px",}} src = "https://s3-alpha-sig.figma.com/img/b809/7ea6/cc3a738cc3c595dce4f51cc20347632d?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OUA8CbpO~zIW-~rRpWiadKnaSyqMo8Z1YxQxIC~V-pIPfGm3qjCl4zFM7iY62ilfvdXRq0ctrVQnO4QnVVWMBXHSVRdh8t5ioZazk~B-Pz5LesCpVLM2LWo~R934VAQck8TKFvBE-AixbbeRSTjfl-ma4JlD2XpfXIB5xoy6WLARQNWvg5UGkSYooMCH6ndTNsNGqTuvSZxI~6ZeMOf-fdFr2iRKVlAGRgUt2hUeR9IGofohXfE0HYXmmlsRAvxe7ExWRMADX25fz5jH60FtrGc1NaBhDmsvh1L9DAF7ZoETEN8VK-HVNzx-a6MtS38-hmQkVpO5IOKDOiZ2p8OeTA__"></img></div>
 
             <div>
                 <p>{props.text} ----------------- {props.price}</p>
