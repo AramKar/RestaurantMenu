@@ -4,11 +4,11 @@ import DescriptionFood from './Fooddesc'
 import WelcomeText from './WelcomeRest'
 import './WelcomePart.css'
 
-const WelcomePart = () => {
+const WelcomePart = ({count,SetCount}) => {
   return (
     <div className='page1'>
     <div className='page1-chef-sector'>
-        <MenuParents></MenuParents>
+        <MenuParents count = {count} SetCount = {SetCount}></MenuParents>
         <WelcomeText></WelcomeText>
     </div>
     <div className='page1-sector2'>
@@ -20,4 +20,4 @@ const WelcomePart = () => {
   )
 }
 
-export default WelcomePart
+export default WelcomePart;

@@ -1,9 +1,31 @@
+import {useState}  from 'react';
 import React from "react";
 import './HamburgersVariety.css';
 
 
 function HamburgersVariety(props){
+     let count = props.count;
+    let MinusCounter = () => {
+        if(count > 0) {
+            props.SetCount(count - 1)
+        } else if(count <= 0){
+            props.SetCount(0)
+        }
+    };
+
+    let  PlusCounter = () => {
+        props.SetCount(count + 1);
+    } 
+
+
+    
+    let MyBasket = () => { props.SetCount(count)
+       
+    }
+    console.log(props)
+
     return(
+      
     <div className="burger-variety-cont">
         <div className="recomended">
            {props.recomended == true ? <button>RECOMENDED</button> : null}
@@ -16,6 +38,13 @@ function HamburgersVariety(props){
         <div className="hamburger-size-cont"><span className="hamburger-size">Гамбургер макси</span></div>
         <div className="hamburger-description-cont"><span className="hamburger-description">Максимально толстый слой мяса</span></div>
         <button className="hamburger-order">ЗАКАЗАТЬ</button>
+
+        <div className='burger-quantity'>
+            <button onClick = {MinusCounter} className='minus-button'>-</button>
+            <h3>{props.count}</h3>
+            <button onClick = {PlusCounter} className='plus-button'>+</button>
+            <button className='add-basket' onClick={MyBasket}>Add Basket</button>
+        </div>
     </div>
     );
 }

@@ -32,10 +32,20 @@
     z-index: 4;
 }
 
+.plus-button  {
+    width: 40px;
+    height: 40px;
+}
 
+.minus-button {
+    width: 40px;
+    height: 40px;
+}
 
-
-
+.burger-quantity {
+    display: flex;
+    gap: 5px;
+}
 
 
 

@@ -1,7 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Menu.css"
+import callContact from '../image/call-contact.png';
+import shoppingCard from '../image/shopping-card.png';
 
-function MenuParents() {
+
+
+function MenuParents(props) {
+    const[popup, SetPopup] = useState(false);
+
+    let popUpOpen = () => {
+        if(popup) {
+            SetPopup(!popup)
+        } else {
+            SetPopup(true)
+        }
+    }
+
     return(
       <div>
             <div className = "page-logo">
@@ -15,11 +29,15 @@ function MenuParents() {
                     <span>О НАС</span>
                     <span>БРОНЬ</span>
                 </div>
-                <img src = "https://png.pngtree.com/element_our/20190531/ourmid/pngtree-grey-shopping-cart-free-map-image_1280880.jpg" class = "shopping-cart"></img>
+                <div className="shopping-card-cont">
+                    <div className="shopping-number" >{props.count}</div>
+                    <img onClick = {popUpOpen} src = {shoppingCard} class = "shopping-cart"></img>
+                    {popup ? <div className="PopUp"/> : null}
+                </div>
                 <div className = "straight-border"></div>
                 <div className = "contact">
                     <div className="contact-number">
-                        <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbTb6SBl9dD2zzyFKh5VbzO-_LuF7vRM5zkg&s" class = "contact-call"></img>
+                        <img src = {callContact} class = "contact-call"></img>
                         <span className = "number">+999-888-76-54</span>
                     </div>
                     <div className="call-order-text">

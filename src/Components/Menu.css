@@ -59,11 +59,6 @@
     gap: 25px;
 }
 
-.shopping-cart {
-    width: 50px;
-    height: 50px;
-    margin-left:36px;
-}
 
 .straight-border {
     border: 1px solid #FFFFFF;
@@ -136,13 +131,56 @@
 }
 
 
+.PopUp {
+    width: 1000px;
+    height: 650px;
+    position: absolute;
+    top: 200px;
+    left: -320px;
+    background-color: #fff;
+    z-index: 1000;
+    border: 2px solid grey;
+}
+
+@keyframes PopUp {
+    from{
+        width: 200px;
+        height: 200px;
+    };
+
+    to{
+        width: 1000px;
+        height: 650px;
+    }
 
 
+}
 
 
-
-
-
+.shopping-card-cont {
+        position: relative; 
+        display: inline-block;
+        padding: 8px;
+        cursor: pointer;
+    }
+    
+.shopping-cart {
+        width: 32px;
+        height: 32px;
+    }
+    
+.shopping-number {
+        background-color: #FF7400;
+        color: white;
+        font-weight: bold;
+        width: 22px;
+        height: 22px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: 2px solid white; 
+        border-radius: 50%;
+    }
 
 
 

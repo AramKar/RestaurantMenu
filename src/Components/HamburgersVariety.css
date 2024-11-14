@@ -92,11 +92,31 @@
     background-color: #D67E34;
 }
 
+.burger-quantity {
+    position: absolute;
+    top: 33px;
+}
 
+.minus-button {
+    background-color: #D67E34;
+    color:#fff;
+    border: 2px solid white;
+    font-weight: bold;
+}
 
+.plus-button {
+    background-color: #D67E34;
+    color:#fff;
+    border: 2px solid white;
+    font-weight: bold;
+}
 
-
-
+.add-basket {
+    background-color: #D67E34;
+    color:#fff;
+    border: 2px solid white;
+    font-weight: bold;
+}
 
 
 
