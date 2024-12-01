@@ -92,9 +92,27 @@
     background-color: #D67E34;
 }
 
+.recomended-cont {
+    height: 28px;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.recomended {
+    margin-left: 0px;
+    background-color: #D67E34;
+    color: #fff;
+    border: white 1px solid;
+}
+
+
 .burger-quantity {
     position: absolute;
     top: 33px;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .minus-button {
@@ -102,6 +120,7 @@
     color:#fff;
     border: 2px solid white;
     font-weight: bold;
+    border-radius: 50%;
 }
 
 .plus-button {
@@ -109,6 +128,7 @@
     color:#fff;
     border: 2px solid white;
     font-weight: bold;
+    border-radius: 50%;
 }
 
 .add-basket {
@@ -116,8 +136,12 @@
     color:#fff;
     border: 2px solid white;
     font-weight: bold;
+    border-radius: 15px;
 }
 
+.zero-count {
+    margin-top: 20px;
+}
 
 
 

@@ -4,11 +4,11 @@ import DescriptionFood from './Fooddesc'
 import WelcomeText from './WelcomeRest'
 import './WelcomePart.css'
 
-const WelcomePart = ({count,SetCount}) => {
+const WelcomePart = ({count,SetCount, burgerCardData, setBurgerCardData, selectedBurger, SetSelectedBurger} ) => {
   return (
     <div className='page1'>
     <div className='page1-chef-sector'>
-        <MenuParents count = {count} SetCount = {SetCount}></MenuParents>
+        <MenuParents count = {count} SetCount = {SetCount} burgerCardData = {burgerCardData} setBurgerCardData= {setBurgerCardData} selectedBurger = {selectedBurger} SetSelectedBurger = {SetSelectedBurger}></MenuParents>
         <WelcomeText></WelcomeText>
     </div>
     <div className='page1-sector2'>

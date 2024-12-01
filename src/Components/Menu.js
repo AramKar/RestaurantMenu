@@ -5,7 +5,7 @@ import shoppingCard from '../image/shopping-card.png';
 
 
 
-function MenuParents(props) {
+function MenuParents({count, setCount, burgerTitle, burgerCardData, setBurgerCardData, selectedBurger, SetSelectedBurger}) {
     const[popup, SetPopup] = useState(false);
 
     let popUpOpen = () => {
@@ -30,9 +30,21 @@ function MenuParents(props) {
                     <span>БРОНЬ</span>
                 </div>
                 <div className="shopping-card-cont">
-                    <div className="shopping-number" >{props.count}</div>
+                    <div className="shopping-number" >{count}</div>
                     <img onClick = {popUpOpen} src = {shoppingCard} class = "shopping-cart"></img>
-                    {popup ? <div className="PopUp"/> : null}
+                    {popup ? (
+                        <div className="PopUp">
+                            {selectedBurger.map((item) => {
+                                console.log(item, "basketItem")
+                                return <div >
+                                    <p style = {{color: "#D67E34", fontSize: "45px", fontFamily: "cursive"}}>{item.title}</p>
+                                    <img src ={item.img}></img>
+                                    <p style = {{color: "#D67E34", fontSize: "28px", fontFamily: "cursive"}}>Price: {item.price}$</p>
+                                </div>
+                            })}
+                        </div>
+                    ) : null}
+
                 </div>
                 <div className = "straight-border"></div>
                 <div className = "contact">
